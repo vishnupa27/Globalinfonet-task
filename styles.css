@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+
+*{  
+    margin:0;
+	outline: none;
+	box-sizing: border-box;
+    background-color: rgb(253, 251, 251);
+	font-family: 'Comfortaa', cursive;
+}
+
+
+.wrapper{
+    width:50%;
+    margin: 20px;
+    text-align: left;
+    background: rgb(0, 0, 0);
+    max-width: 550px;
+
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.wrapper .input {
+    width: 85%;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.searchbtn {
+    background: rgb(0, 247, 255);
+    width: 10%;
+    border-radius: 5px;
+    position: relative;
+    cursor: pointer;
+}
+
+.searchbtn .fas{
+	position: absolute;
+    background: rgb(0, 247, 255);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 18px;
+}
+
+.row{
+    text-align: center;
+    right: 5%;
+    top: 24%;
+    padding: 6px;
+    display: flex;
+    justify-content:flex-end;
+    border-radius: 28px;
+}
+
+.app-button
+{
+    position: absolute;
+    text-align: right;
+    right: 5%;
+    top: 10%;
+    transform: translate(-50%, -50%);
+    background: rgb(0, 247, 255);
+    max-width: 150px;
+    width: 100%;
+    padding: 6px;
+    display: flex;
+    border-radius: 28px;
+    font-weight: bold;
+}
+
+
+.navbar {
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+   }
+
+.logo{
+    background-color: teal;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.button {
+    background-color: #333;
+    margin: 40px;
+    border: none;
+    top: 10%;
+    color: rgb(252, 252, 252);
+    padding: 23px 43px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    max-width: 550px;
+    width: 100%;
+    padding: 20px 32px;
+    display: flex;
+    border-radius: 5px;
+    cursor: pointer;
+  
+}
+
+.column1{
+    float: left;
+    right: 10%;
+    width: 25%;
+    padding: 52px;
+    padding-top: 20px;
+}
+.top{
+    justify-content: space-between;
+}
+
+.search-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline
+}
+
+.img{
+
+    width: 45%;
+    
+    clip-path: circle();
+    
+}

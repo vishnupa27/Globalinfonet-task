@@ -1,0 +1,31 @@
+.navbar {
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: teal;
+   }
+
+.logo{
+    background-color: teal;
+    font-weight: bold;
+    font-size: 25px;
+
+}
+
+.img{
+
+    width: 45%;
+    
+    clip-path: circle();
+    
+}
+
+.column1{
+    float: left;
+    right: 10%;
+    width: 25%;
+    padding: 52px;
+    padding-top: 20px;
+}
