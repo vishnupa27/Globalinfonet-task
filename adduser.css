@@ -1,0 +1,115 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+/* navigation */
+* {
+ box-sizing: border-box;
+}
+
+body {
+ margin: 0px;
+ font-family: 'segoe ui';
+}
+
+.nav {
+ height: 50px;
+ width: 100vw;
+ background-color: teal
+}
+
+.nav > .nav-header {
+ display: inline;
+}
+
+.nav > .nav-header > .nav-title {
+ display: inline-block;
+ font-size: 28px;
+ color: rgb(0, 0, 0);
+ padding: 10px 10px 10px 10px;
+ font-weight: bold;
+}
+/* image */
+
+
+.formdiv{
+  display: flex;
+}
+
+.cont {
+  padding: 50px 50px 10px 30px;
+  background-color: white;
+  font-size: 25px
+}
+
+
+.container {
+  padding: 65px 10px 10px 200px;
+  
+ 
+}
+.details{
+  padding: 8px 10px 10px 65px;
+  font-size: 25px
+}
+
+.img{
+  width: 45%;
+  clip-path: circle();
+
+} 
+
+/*  input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* submit button */
+.cancelbtn {
+  background-color: #0491aa;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  font-weight: bold;
+  font-size: 25px
+}
+
+.cancelbtn:hover {
+  opacity: 1;
+}
+
+/* color to links */
+a {
+  color: dodgerblue;
+}
+
+
+.savebtn {
+  background-color: #0491aa;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 40%;
+  opacity: 0.9;
+  font-weight: bold;
+  font-size: 25px
+}
+
+.savebtn:hover {
+  opacity: 1;
+}
+
+
